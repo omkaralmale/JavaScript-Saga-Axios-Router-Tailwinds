@@ -1,0 +1,26 @@
+export const API_ENDPOINTS = {
+  GET_DATA: "/users",
+  POST_DATA: "/users",
+  PUT_DATA: "/users/",
+  DELETE_DATA: "/users/",
+};
+
+export const DELETE_API_REQUEST = "DELETE_API_REQUEST";
+export const DELETE_API_SUCCESS = "DELETE_API_SUCCESS";
+export const DELETE_API_FAILURE = "DELETE_API_FAILURE";
+
+export const GET_API_REQUEST = "GET_API_REQUEST";
+export const GET_API_SUCCESS = "GET_API_SUCCESS";
+export const GET_API_FAILURE = "GET_API_FAILURE";
+
+export const PUT_API_SUCCESS = "PUT_API_SUCCESS";
+export const PUT_API_FAILURE = "PUT_API_FAILURE";
+export const PUT_API_REQUEST = "PUT_API_REQUEST";
+
+export const POST_API_REQUEST = "POST_API_REQUEST";
+export const POST_API_SUCCESS = "POST_API_SUCCESS";
+export const POST_API_FAILURE = "POST_API_FAILURE";
+
+export const PATCH_API_REQUEST = "PATCH_API_REQUEST";
+export const PATCH_API_SUCCESS = "PATCH_API_SUCCESS";
+export const PATCH_API_FAILURE = "PATCH_API_FAILURE";
